@@ -124,6 +124,10 @@ merged.reset_index(drop=True, inplace=True)
 
 merged = merged.set_index('State2', drop=True)
 
+#%%
+#NEED TO REMOVE WHOLE YEAR SEASON ?
+
+
 
 #%%
 #   perform GROUP STATISTICS over states' crop productions
@@ -170,7 +174,7 @@ sum_grouped = groupattempt['Area '].sum()
 
 #pull out 10 crops with highest sums of area
 #sort values says it is missing sort "by" ????
-top10year = sum_area_year.sort_values()[-10:]
+top10year = sum_area_year.sort_values('State2')[-10:]
 
 #reset index of sum_area_year
 sum_area_year = sum_area_year.reset_index().set_index(['Crop'])
@@ -391,6 +395,7 @@ farm_merged.drop(['State/UT'], axis=1, inplace=True)
 farm_merged.dropna(subset=['State'], inplace=True)
 
 #merge dataset of farmer suicides 1 onto dataset of crops?
+#maybe merge on one where districts is already dropped
 farm_merged_2 = farm_merged.merge(merged, left_on='State', right_on='State2',how='outer', indicator=True)
 
 
@@ -444,7 +449,7 @@ plt.title("Change in Crop Area for India's Top 10 Crops")
 # Show the graph
 plt.show()
 
-#In this scatter-plot, I cannot choose the c (color) to be multi-colored, but the years are plotted correctly on the x.
+#In this scatter-plot, I cannot choose the c (color) to be multi-colored, but the years are (were) plotted correctly on the x.
 
 
 #%%
@@ -512,14 +517,10 @@ sns.lmplot(x='Crop_Year', y='Area ', data=sum_area_top10, hue='colors', fit_reg=
 
 #dissimilarity indexes
 # x will be time
-# y will be the area of crops?
+# y will be the area of crops
 # color can be the types of crops
 # then compare the amount of area for top 10 crops and the top 10 indigenous crops ...
 # in years of 2005-2010, then 2010-2015?
-
-
-
-
 
 
 
