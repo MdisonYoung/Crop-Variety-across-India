@@ -1,0 +1,40 @@
+Sl. No.,Category,State/UT,Marginal Farmers - Male,Marginal Farmers - Female,Marginal Farmers -Transgender,Marginal Farmers - Total,Small Farmers - Male,Small Farmers - Female,Small Farmers -Transgender,Small Farmers - Total,Medium Farmers - Male,Medium Farmers - Female,Medium Farmers -Transgender,Medium Farmers - Total,Large Farmers - Male,Large Farmers - Female,Large Farmers -Transgender,Large Farmers - Total,Total Farmers - Male,Total Farmers - Female,Total Farmers -Transgender,Total Farmers
+1,State,ANDHRA PRADESH,173,29,0,202,152,11,0,163,141,8,0,149,2,0,0,2,468,48,0,516
+2,State,ARUNACHAL PRADESH,0,0,0,0,7,0,0,7,0,0,0,0,0,0,0,0,7,0,0,7
+3,State,ASSAM,52,0,0,52,17,0,0,17,7,0,0,7,8,0,0,8,84,0,0,84
+4,State,BIHAR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,State,CHHATTISGARH,326,28,0,354,305,5,0,310,151,2,0,153,33,4,0,37,815,39,0,854
+6,State,GOA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,State,GUJARAT,4,0,0,4,27,2,0,29,15,4,0,19,4,1,0,5,50,7,0,57
+8,State,HARYANA,3,0,0,3,7,0,0,7,18,0,0,18,0,0,0,0,28,0,0,28
+9,State,HIMACHAL PRADESH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,State,JAMMU & KASHMIR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,State,JHARKHAND,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,State,KARNATAKA,205,4,0,209,733,18,0,751,233,2,0,235,2,0,0,2,1173,24,0,1197
+13,State,KERALA,0,0,0,0,2,0,0,2,1,0,0,1,0,0,0,0,3,0,0,3
+14,State,MADHYA PRADESH,150,4,0,154,278,11,0,289,124,10,0,134,4,0,0,4,556,25,0,581
+15,State,MAHARASHTRA,804,30,0,834,1248,37,0,1285,857,42,0,899,12,0,0,12,2921,109,0,3030
+16,State,MANIPUR,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1
+17,State,MEGHALAYA,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,2,0,0,2
+18,State,MIZORAM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,State,NAGALAND,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,State,ODISHA,13,0,0,13,7,0,0,7,3,0,0,3,0,0,0,0,23,0,0,23
+21,State,PUNJAB,18,0,0,18,69,1,0,70,11,0,0,11,1,0,0,1,99,1,0,100
+22,State,RAJASTHAN,0,0,0,0,2,0,0,2,1,0,0,1,0,0,0,0,3,0,0,3
+23,State,SIKKIM,1,0,0,1,11,3,0,14,0,0,0,0,0,0,0,0,12,3,0,15
+24,State,TAMIL NADU,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,2,0,0,2
+25,State,TELANGANA,276,25,0,301,555,50,0,605,310,63,0,373,64,15,0,79,1205,153,0,1358
+26,State,TRIPURA,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+27,State,UTTAR PRADESH,36,13,0,49,46,10,0,56,23,7,0,30,8,2,0,10,113,32,0,145
+28,State,UTTARAKHAND,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,State,WEST BENGAL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TOTAL (STATES),TOTAL (STATES),TOTAL (STATES),2062,133,0,2195,3470,148,0,3618,1896,138,0,2034,138,22,0,160,7566,441,0,8007
+31,Union Territories,A & NISLANDS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,Union Territories,CHANDIGARH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,Union Territories,D & N HAVELI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,Union Territories,DAMAN & DIU,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,Union Territories,DELHI (UT),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,Union Territories,LAKSHADWEEP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,Union Territories,PUDUCHERRY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TOTAL (UTs),TOTAL (UTs),TOTAL (UTs),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TOTAL (ALL INDIA),TOTAL (ALL INDIA),TOTAL (ALL INDIA),2062,133,0,2195,3470,148,0,3618,1896,138,0,2034,138,22,0,160,7566,441,0,8007
