@@ -97,7 +97,7 @@ new_names = pd.read_csv("india_state_names.csv")
 
 
 #%%
-#merge tables to combine new and old state names
+#   Merge tables to combine new and old state names
 merged = crops.merge(new_names, left_on='State', right_on='Old_Name',how='left', indicator=True)
 
 #check for mis-matches
@@ -124,9 +124,11 @@ merged.reset_index(drop=True, inplace=True)
 
 merged = merged.set_index('State2', drop=True)
 
-#%%
-#NEED TO REMOVE WHOLE YEAR SEASON ?
 
+#   Remove all other seasons and only use "Whole Year" to depict yearly crop production
+
+# use loc to select Whole Year for Season
+merged = merged.loc[merged['Season']=='Whole Year ']
 
 
 #%%
@@ -137,73 +139,117 @@ merged = merged.set_index('State2', drop=True)
 # group by state & crop type
 
 #area by state & crop type
-state_area = merged.groupby(['State2', 'Crop'])
+state_area = merged.groupby(['Crop', 'Crop_Year'])
 
 #area by crop type
 grouped = merged.groupby(['Crop'])
 
 #SUM AREA ALL ACROSS India
-mean_area = state_area['Area '].sum()
+sum_area1 = state_area['Area '].sum()
 
 #SUM AREA by crop type
 raw = grouped['Area '].sum()
 
 #pull out 10 crops of raw with highest sums of area
-top_10 = raw.sort_values()[-10:]
+top_10 = raw.sort_values()[-5:]
 
-#reset index of mean_area to crop
-mean_area = mean_area.reset_index().set_index(['Crop'])
+#reset index of sum_area1 to crop
+sum_area1 = sum_area1.reset_index().set_index(['Crop'])
 
-index_top10 = mean_area.index.isin(top_10.index)
-mean_area_top10 = mean_area[index_top10]
+index_top10 = sum_area1.index.isin(top_10.index)
+sum_area_top10 = sum_area1[index_top10]
 
-
-mean_area_top10 = mean_area_top10.reset_index()
-
-#%%
-#  TOP 10 CROP TYPES by SUMMED AREA ACROSS INDIA by YEAR & STATE
-
-#group by state, year, & crop
-yearattempt = merged.groupby(['State2','Crop', 'Crop_Year'])
-groupattempt = merged.groupby(['Crop'])
-
-#SUM area all across India 
-sum_area_year = yearattempt['Area '].sum()
-
-sum_grouped = groupattempt['Area '].sum()
-
-#pull out 10 crops with highest sums of area
-#sort values says it is missing sort "by" ????
-top10year = sum_area_year.sort_values('State2')[-10:]
-
-#reset index of sum_area_year
-sum_area_year = sum_area_year.reset_index().set_index(['Crop'])
-
-#HERE, THE INDEX BECAMES BOOL OF ALL FALSE?
-sum_index = sum_area_year.index.isin(top10year.index)
-
-sum_area_top10 = sum_area_year[sum_index]
 
 sum_area_top10 = sum_area_top10.reset_index()
 
 
 #%%
+
+#   TOP 10 CROP TYPES by SUMMED YIELD ACROSS INDIA by STATE
+
+# group by state & crop type
+
+#yield by state & crop type
+state_yield = merged.groupby(['Crop','Crop_Year'])
+
+#yield by crop type
+grouped_yield = merged.groupby(['Crop'])
+
+#SUM YIELD ALL ACROSS India
+sum_yield = state_yield['Yield'].sum()
+
+#SUM YIELD by crop typw
+raw_yield = grouped_yield['Yield'].sum()
+
+#pull out 10 crops of raw_yield with highest sums of yield
+top_10_yield = raw_yield.sort_values()[-5:]
+
+#reset index of sum_yield to crop
+sum_yield = sum_yield.reset_index().set_index(['Crop'])
+
+index_topyield = sum_yield.index.isin(top_10_yield.index)
+sum_yield_top10 = sum_yield[index_topyield]
+
+sum_yield_top10 = sum_yield_top10.reset_index()
+
+
+#%%
+#  TOP 10 CROP TYPES by SUMMED AREA ACROSS INDIA by YEAR & STATE
+
+#group by state, year, & crop
+#yearattempt = merged.groupby(['State2','Crop','Crop_Year'])
+#groupattempt = merged.groupby(['Crop'])
+
+#SUM area all across India 
+#sum_area_year = yearattempt['Area '].sum()
+
+#sum_grouped = groupattempt['Area '].sum()
+
+#pull out 10 crops with highest sums of area
+#sort values says it is missing sort "by" ????
+#top10year = sum_grouped.sort_values()[-5:]
+
+#reset index of sum_area_year
+#sum_area_year = sum_area_year.reset_index().set_index(['Crop'])
+
+#HERE, THE INDEX BECAMES BOOL OF ALL FALSE?
+#sum_index = sum_area_year.index.isin(top10year.index)
+
+#sum_area_top10 = sum_area_year[sum_index]
+
+#sum_area_top10 = sum_area_top10.reset_index()
+
+
+#%%
 #   Pivot the top 10 crop types by area in India (by year) into grid
 
-#Pivot table
+#Pivot tables for both area top 10 and yield top 10
+
+#   Crop Production by Area for the top 10 Crop Types
 
 #drop nas - should I drop NAs or fill NAs with 0?
-pivot_sum_year = sum_area_top10.dropna(subset=['State2','Crop','Crop_Year'])
+#pivot_sum_year = sum_area_top10.dropna(subset=['Crop','Crop_Year'])
 
 #pivot, set columns, and value to production by area
-pivotyear = pivot_sum_year.pivot(index='Crop', columns=['State2', 'Crop_Year'], values='Area ')
+#pivotyear = pivot_sum_year.pivot(index='Crop', columns=['Crop_Year'], values='Area ')
 
-grid = sum_area_top10.pivot(index='State2', columns=['Crop','Crop_Year'], values='Area ')
+#grid = sum_area_top10.pivot(index='Crop_Year', columns=['Crop','Crop_Year'], values='Area ')
 
 #fill na's
-grid = grid.fillna(0)
+#grid = grid.fillna(0)
 
 
+#   Crop Production by Yield for the top 10 Crop Types
+
+#nas
+#pivot_sum_yield = sum_yield_top10.dropna(subset=['Crop','Crop_Year'])
+
+#pivot, set columns, and value to production by yield
+#pivotyield = pivot_sum_yield.pivot(index='Crop',columns=['Crop_Year'], values='Yield')
+
+#gridyield = sum_yield_top10.pivot(index='Crop_Year', columns=['Crop','Crop_Year'], values='Yield')
+
+#gridyield = gridyield.fillna(0)
 
 #%%
 #   sort the states in order by geography
@@ -247,14 +293,29 @@ state_order = ['Laddakh',
                'Andaman and Nicobar Islands'
                ]
 
+#moving sum_area
+# group by state & crop type
+
+#area by state & crop type
+state_area = merged.groupby(['State2', 'Crop'])
+
+#area by crop type
+grouped = merged.groupby(['Crop'])
+
+#SUM AREA ALL ACROSS India
+sum_area = state_area['Area '].sum()
+
+#reset index of sum_area to crop
+sum_area = sum_area.reset_index().set_index(['Crop'])
+
 #Convert state to a categorical in desired order
-mean_area['State2'] = pd.Categorical(mean_area['State2'], categories=state_order, ordered=True)
+sum_area['State2'] = pd.Categorical(sum_area['State2'], categories=state_order, ordered=True)
 
 #ort by state
-df = mean_area.sort_values('State2')
+df = sum_area.sort_values('State2')
 
 #Reset the index
-df = mean_area.reset_index(drop=False)
+df = sum_area.reset_index(drop=False)
 
 #dict specifying order
 state_order_d = {State2: i for i, State2 in enumerate(state_order)}
@@ -278,26 +339,28 @@ statedf = df.groupby(['State2', 'Crop'])
 groupdf = df.groupby(['Crop'])
 
 #SUM AREA across India over all years
-mean_area_df = statedf['Area '].sum()
+sum_area_df = statedf['Area '].sum()
 
 rawdf = groupdf['Area '].sum()
+
+# pull out the top 10 crops by area
 top_10_df = rawdf.sort_values()[-10:]
 
-#reset index of mean_area to crop
-mean_area_df = mean_area_df.reset_index().set_index(['Crop'])
+#reset index of sum_area_df to crop
+sum_area_df = sum_area_df.reset_index().set_index(['Crop'])
 
-index_top10_df = mean_area_df.index.isin(top_10_df.index)
-mean_area_top10_df = mean_area_df[index_top10_df]
+index_top10_df = sum_area_df.index.isin(top_10_df.index)
+sum_area_top10_df = sum_area_df[index_top10_df]
 
-mean_area_top10_df = mean_area_top10_df.reset_index()
+sum_area_top10_df = sum_area_top10_df.reset_index()
 
 #How can I sort by value (area) of the heatmap?
-#mean_area_top10_df = mean_area_top10_df['Area '].sort_values()
+#sum_area_top10_df = sum_area_top10_df['Area '].sort_values()
 
 #   Pivot table
 
 #drop nas
-clean = mean_area_top10_df.dropna(subset=['State2','Crop'])
+clean = sum_area_top10_df.dropna(subset=['State2','Crop'])
 
 #pivot, set columns, and value to area
 heatmap_data = clean.pivot(index='Crop', columns='State2', values='Area ')
@@ -323,6 +386,63 @@ ax.set_title("Production of Cash Crops by Area in India", weight='bold', size=17
 
 #save to jpg
 plt.savefig("India's Crop Production of Cash Crops.jpg")
+
+#   Aggregate & sum area of over lowest 10 crop types 
+
+#groupby state & crop type
+statedf2 = df.groupby(['State2', 'Crop'])
+
+groupdf2 = df.groupby(['Crop'])
+
+#SUM AREA across India over all years
+sum_area_df2 = statedf2['Area '].sum()
+
+rawdf2 = groupdf2['Area '].sum()
+
+# pull out the top 10 crops by area
+top_10_df2 = rawdf2.sort_values()[:10]
+
+#reset index of sum_area_df to crop
+sum_area_df2 = sum_area_df2.reset_index().set_index(['Crop'])
+
+index_top10_df2 = sum_area_df2.index.isin(top_10_df2.index)
+sum_area_top10_df2 = sum_area_df2[index_top10_df2]
+
+sum_area_top10_df2 = sum_area_top10_df2.reset_index()
+
+#How can I sort by value (area) of the heatmap?
+#sum_area_top10_df = sum_area_top10_df['Area '].sort_values()
+
+#   Pivot table
+
+#drop nas
+clean2 = sum_area_top10_df2.dropna(subset=['State2','Crop'])
+
+#pivot, set columns, and value to area
+heatmap_data2 = clean2.pivot(index='Crop', columns='State2', values='Area ')
+
+#fill na's with 0
+heatmap_data2 = heatmap_data2.fillna(0)
+
+#   Plotting a heatmap
+
+#figure, set size
+fig2, ax2 = plt.subplots(figsize=(18,15))
+
+#set ax to heatmap, set width of lines, color to cmap, shape to square, reduce cbar size, and emphasize differences with robust
+ax2 = sns.heatmap(heatmap_data2, linewidths=.5, cmap='YlGnBu', annot=False, square=True,cbar_kws={"shrink": 0.35},robust=True)
+
+#rotate state names on x axis
+ax2.tick_params(axis='x', labelrotation = 75)
+
+#set labels & title
+ax2.set_ylabel("Crop Type",weight='bold',size=11.5)
+ax2.set_xlabel("States (North to South)",weight='bold', size=11.5)
+ax2.set_title("Production of Local Crops by Area in India", weight='bold', size=17)
+
+#save to jpg
+plt.savefig("India's Crop Production of Local Crops.jpg")
+
 
 #https://seaborn.pydata.org/generated/seaborn.heatmap.html 
 
@@ -429,17 +549,45 @@ farm_merged_final.to_csv('farmer_suicides.csv',index=True)
 import numpy as np
 
 
-#   Scatter - Plot the Top 10 Crop Types by Area over time (1998 - 2007)
+#   Scatter - Plot the Top 10 Crop Types by YIELD over time (1998 - 2007)
 
-#x-axis will be year, y-axis is area, colors of points are crop types
-
-
-#set x, y, color, linewidth
-plt.scatter(x="Crop_Year", y="Area ", c='Black', s=100, cmap="Blues", alpha=0.4, edgecolors="grey", linewidth=2)
+#x-axis will be year, y-axis is Yield, colors of points are crop types
 
 
-fig1,ax = plt.subplots()
-sum_area_top10.plot.scatter(ax=ax, x='Crop_Year',y='Area ',c='Black', cmap='magma')
+#must set crops to a numerical form for crop type by yield - found at https://www.geeksforgeeks.org/how-to-convert-categorical-variable-to-numeric-in-pandas/
+sum_yield_top10['Crop'].replace(['Banana', 'Coconut ', 'Sugarcane','Onion', 'Potato'],
+                        [0, 1, 2, 3, 4], inplace=True)
+
+
+#plot figure
+fig1,ax = plt.subplots(figsize=(10,10))
+#choose colors
+sum_yield_top10.plot.scatter(ax=ax, x='Crop_Year',y='Yield',c='Crop', cmap='magma')
+
+# Add titles (main and on axis)
+plt.xlabel("Years (1998-2017)")
+plt.ylabel("Yield of Crops")
+plt.title("Change in Crop Yield for India's Top 10 Crops")
+
+# Show the graph
+plt.show()
+
+
+#   Scatter - Plot the Top 10 Crop Types by AREA over time (1998 - 2007)
+
+#x-axis will be year, y-axis is Area, colors of points are crop types
+
+
+#set crops to a numerical form for crop type by area
+sum_area_top10['Crop'].replace(['Guar seed', 'Sugarcane', 'Coconut ', 'Potato', 'Coriander'],
+                        [0, 1, 2, 3, 4], inplace=True)
+
+
+#plot figure
+fig2,ax2 = plt.subplots(figsize=(10,10))
+
+#choose colors
+sum_area_top10.plot.scatter(ax=ax2, x='Crop_Year',y='Area ',c='Crop', cmap='magma')
 
 # Add titles (main and on axis)
 plt.xlabel("Years (1998-2017)")
@@ -449,7 +597,6 @@ plt.title("Change in Crop Area for India's Top 10 Crops")
 # Show the graph
 plt.show()
 
-#In this scatter-plot, I cannot choose the c (color) to be multi-colored, but the years are (were) plotted correctly on the x.
 
 
 #%%
@@ -457,22 +604,22 @@ plt.show()
 #   Change date to year to plot the x-axis correctly, but with colored categories of crops
 
 #convert a string to a Pandas datetime object and get the year
-yeardate = pd.to_datetime(sum_area_top10['Crop_Year'], format = "%Y")
-sum_area_top10['ymd'] = yeardate
-sum_area_top10['year'] = yeardate.dt.year
-sum_area_top10 = sum_area_top10.drop(columns="ymd")
+yeardate = pd.to_datetime(sum_yield_top10['Crop_Year'], format = "%Y")
+sum_yield_top10['ymd'] = yeardate
+sum_yield_top10['year'] = yeardate.dt.year
+sum_yield_top10 = sum_yield_top10.drop(columns="ymd")
 
 #choose colors
 REGION_COLS = ["#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2"]
 
 #set df variable for x
-YEAR = sum_area_top10["year"].values
+YEAR = sum_yield_top10["year"].values
 
 #set df variable for y
-AREA = sum_area_top10["Area "].values
+AREA = sum_yield_top10["Yield"].values
 
 #set df variable for color
-CROP = sum_area_top10["Crop"].values
+CROP = sum_yield_top10["Crop"].values
 CROP = np.unique(CROP)
 
 #figure
@@ -488,7 +635,7 @@ for crops, color in zip(CROP, REGION_COLS):
     
 ax.legend();
 
-#this map shows varying colors of points but the year is being mapped as an integer, not a date?
+#this map shows varying colors of points and years are fixed, but only shows 5 points
 
 #%%
 
@@ -499,10 +646,10 @@ from matplotlib.lines import Line2D
 fig, ax = plt.subplots(figsize=(6, 6))
 
 #set colors to top 5 cash crops : "Maize", "Rapeseed &Mustard", "Rice", "Soyabean", "Wheat"
-colors = {'Maize':'tab:blue', 'Rapeseed &Mustard':'tab:orange', 'Rice':'tab:green', 'Soyabean':'tab:red', 'Wheat':'tab:purple'}
+colors = {0:'tab:blue', 1:'tab:orange', 2:'tab:green', 3:'tab:red', 4:'tab:purple'}
 
 #scatter
-ax.scatter(sum_area_top10['Crop_Year'], sum_area_top10['Area '], c=sum_area_top10['Crop'].map(colors))
+ax.scatter(sum_yield_top10['Crop_Year'], sum_yield_top10['Yield'], c=sum_yield_top10['Crop'].map(colors))
 
 # add a legend
 handles = [Line2D([0], [0], marker='o', color='w', markerfacecolor=v, label=k, markersize=3) for k, v in colors.items()]
@@ -510,16 +657,16 @@ ax.legend(title='color', handles=handles, bbox_to_anchor=(1.05, 1), loc='upper l
 
 plt.show()
 
-sns.lmplot(x='Crop_Year', y='Area ', data=sum_area_top10, hue='colors', fit_reg=False)
+sns.lmplot(x='year', y='Yield', data=sum_yield_top10, hue=colors, fit_reg=False)
 
 
 
 
 #dissimilarity indexes
 # x will be time
-# y will be the area of crops
+# y will be the area or yield of crops
 # color can be the types of crops
-# then compare the amount of area for top 10 crops and the top 10 indigenous crops ...
+# then compare the amount of area / yield for top 10 or 5 crops and the top 10 or 5 indigenous crops ...
 # in years of 2005-2010, then 2010-2015?
 
 

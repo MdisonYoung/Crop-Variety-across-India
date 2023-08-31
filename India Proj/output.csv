@@ -1,1102 +1,396 @@
 Crop,State2,Area ,state_order
-Cowpea(Lobia),Laddakh,4.0,0
-Barley,Laddakh,16806.0,0
-Gram,Laddakh,17412.0,0
-Horse-gram,Laddakh,17.0,0
-Linseed,Laddakh,2.0,0
-Maize,Laddakh,4.0,0
-Moong(Green Gram),Laddakh,2.0,0
-Moth,Laddakh,14.0,0
-Onion,Laddakh,55.0,0
-Masoor,Laddakh,495.0,0
-Other Cereals,Laddakh,36708.0,0
-Peas & beans (Pulses),Laddakh,7731.0,0
-Potato,Laddakh,1163.0,0
-Rapeseed &Mustard,Laddakh,878.0,0
-Small millets,Laddakh,8345.0,0
-Wheat,Laddakh,54481.0,0
-Other  Rabi pulses,Laddakh,997.0,0
-Other  Rabi pulses,Jammu and Kashmir,4029.0,1
-Small millets,Jammu and Kashmir,29342.0,1
-Sugarcane,Jammu and Kashmir,2731.0,1
-Masoor,Jammu and Kashmir,4956.0,1
-Moong(Green Gram),Jammu and Kashmir,22111.0,1
-Moth,Jammu and Kashmir,24367.0,1
-Onion,Jammu and Kashmir,9201.0,1
-Other Cereals,Jammu and Kashmir,47289.0,1
-Tobacco,Jammu and Kashmir,211.0,1
-Peas & beans (Pulses),Jammu and Kashmir,21815.0,1
-Potato,Jammu and Kashmir,38626.0,1
-Ragi,Jammu and Kashmir,13144.0,1
-Rapeseed &Mustard,Jammu and Kashmir,1036119.0,1
-Rice,Jammu and Kashmir,5266071.0,1
-Sannhamp,Jammu and Kashmir,2161.0,1
-Turmeric,Jammu and Kashmir,170.0,1
-Sesamum,Jammu and Kashmir,89899.0,1
-Other Kharif pulses,Jammu and Kashmir,57201.0,1
-Urad,Jammu and Kashmir,219078.0,1
-Jowar,Jammu and Kashmir,7658.0,1
-other oilseeds,Jammu and Kashmir,3230.0,1
-Arhar/Tur,Jammu and Kashmir,24.0,1
-Bajra,Jammu and Kashmir,294920.0,1
-Barley,Jammu and Kashmir,174448.0,1
-Wheat,Jammu and Kashmir,5162389.0,1
-Cotton(lint),Jammu and Kashmir,332.0,1
-Cowpea(Lobia),Jammu and Kashmir,3273.0,1
-Dry chillies,Jammu and Kashmir,9528.0,1
-Garlic,Jammu and Kashmir,8831.0,1
-Coriander,Jammu and Kashmir,9.0,1
-Gram,Jammu and Kashmir,3233.0,1
-Groundnut,Jammu and Kashmir,171.0,1
-Horse-gram,Jammu and Kashmir,12733.0,1
-Linseed,Jammu and Kashmir,4022.0,1
-Maize,Jammu and Kashmir,6169453.0,1
-Ginger,Jammu and Kashmir,412.0,1
-Potato,Himachal Pradesh,227600.0,2
-Arhar/Tur,Himachal Pradesh,2998.0,2
-Bajra,Himachal Pradesh,7227.0,2
-Barley,Himachal Pradesh,495256.0,2
-Dry chillies,Himachal Pradesh,11202.0,2
-Cotton(lint),Himachal Pradesh,436.0,2
-Ginger,Himachal Pradesh,33725.0,2
-Garlic,Himachal Pradesh,66184.0,2
-Other Kharif pulses,Himachal Pradesh,87953.0,2
-Coriander,Himachal Pradesh,3059.0,2
-Ragi,Himachal Pradesh,32070.0,2
-Peas & beans (Pulses),Himachal Pradesh,111389.0,2
-Rice,Himachal Pradesh,1689490.0,2
-Sannhamp,Himachal Pradesh,202.0,2
-Sesamum,Himachal Pradesh,55321.0,2
-Small millets,Himachal Pradesh,154340.0,2
-Soyabean,Himachal Pradesh,11873.0,2
-Sugarcane,Himachal Pradesh,41519.0,2
+Potato,Laddakh,170.0,0
+Onion,Laddakh,33.0,0
+Dry chillies,Jammu and Kashmir,1000.0,1
+other oilseeds,Jammu and Kashmir,36.0,1
+Turmeric,Jammu and Kashmir,11.0,1
+Tobacco,Jammu and Kashmir,161.0,1
+Sugarcane,Jammu and Kashmir,709.0,1
+Sannhamp,Jammu and Kashmir,669.0,1
+Potato,Jammu and Kashmir,5186.0,1
+Onion,Jammu and Kashmir,2009.0,1
+Garlic,Jammu and Kashmir,201.0,1
+Turmeric,Himachal Pradesh,336.0,2
+Tobacco,Himachal Pradesh,114.0,2
 Sweet potato,Himachal Pradesh,102.0,2
-Tobacco,Himachal Pradesh,115.8,2
-Gram,Himachal Pradesh,17461.0,2
-Wheat,Himachal Pradesh,7822554.0,2
-Rapeseed &Mustard,Himachal Pradesh,180896.0,2
-Urad,Himachal Pradesh,206308.0,2
-Groundnut,Himachal Pradesh,1958.0,2
-Jowar,Himachal Pradesh,287.0,2
-Other  Rabi pulses,Himachal Pradesh,39121.0,2
-Horse-gram,Himachal Pradesh,42906.0,2
-Onion,Himachal Pradesh,12240.0,2
-Moth,Himachal Pradesh,230.0,2
-Turmeric,Himachal Pradesh,3253.0,2
-Masoor,Himachal Pradesh,13386.0,2
-Linseed,Himachal Pradesh,26156.0,2
-Moong(Green Gram),Himachal Pradesh,5081.0,2
-Maize,Himachal Pradesh,6406309.0,2
-Peas & beans (Pulses),Punjab,42500.0,3
-Other  Rabi pulses,Punjab,5900.0,3
-Moth,Punjab,2200.0,3
-Moong(Green Gram),Punjab,387800.0,3
-Maize,Punjab,3230800.0,3
-Linseed,Punjab,1800.0,3
-Jowar,Punjab,400.0,3
-Guar seed,Punjab,470100.0,3
-Groundnut,Punjab,68800.0,3
-Gram,Punjab,102400.0,3
-Masoor,Punjab,49500.0,3
-Barley,Punjab,406000.0,3
-Cotton(lint),Punjab,10830900.0,3
-Arhar/Tur,Punjab,134500.0,3
-Rapeseed &Mustard,Punjab,866100.0,3
-Bajra,Punjab,81600.0,3
-Sesamum,Punjab,204100.0,3
-Rice,Punjab,63430000.0,3
-Sunflower,Punjab,53800.0,3
-Urad,Punjab,62400.0,3
-Wheat,Punjab,79694000.0,3
-other oilseeds,Punjab,2600.0,3
+Cotton(lint),Himachal Pradesh,57.0,2
+Sugarcane,Himachal Pradesh,36484.0,2
+Sannhamp,Himachal Pradesh,38.0,2
+Potato,Himachal Pradesh,79591.0,2
+Onion,Himachal Pradesh,1919.0,2
+Ginger,Himachal Pradesh,1822.0,2
+Garlic,Himachal Pradesh,5440.0,2
+Dry chillies,Himachal Pradesh,3727.0,2
+Coriander,Himachal Pradesh,571.0,2
+Cotton(lint),Punjab,724000.0,3
+Guar seed,Punjab,140700.0,3
+Moong(Green Gram),Punjab,49300.0,3
 Sugarcane,Punjab,1912000.0,3
-Rice,Uttarakhand,5743405.0,4
-Sannhamp,Uttarakhand,4007.0,4
-Sesamum,Uttarakhand,41299.0,4
-Small millets,Uttarakhand,922603.0,4
-Soyabean,Uttarakhand,208070.0,4
-Urad,Uttarakhand,246761.0,4
-Sunflower,Uttarakhand,1477.0,4
-Tobacco,Uttarakhand,1139.0,4
+Onion,Uttarakhand,51840.0,4
 Turmeric,Uttarakhand,11454.0,4
-Wheat,Uttarakhand,7465058.0,4
-other oilseeds,Uttarakhand,14765.0,4
-Rapeseed &Mustard,Uttarakhand,273023.0,4
+Sunflower,Uttarakhand,40.0,4
 Sugarcane,Uttarakhand,2208474.0,4
-Ragi,Uttarakhand,2401535.0,4
-Other Cereals,Uttarakhand,487800.0,4
-Peas & beans (Pulses),Uttarakhand,101171.0,4
-Groundnut,Uttarakhand,25351.0,4
-Horse-gram,Uttarakhand,216048.0,4
-Jowar,Uttarakhand,8.0,4
-Linseed,Uttarakhand,37660.0,4
-Arhar/Tur,Uttarakhand,51634.0,4
-Bajra,Uttarakhand,142.0,4
-Barley,Uttarakhand,462019.0,4
-Dry chillies,Uttarakhand,5671.0,4
-Garlic,Uttarakhand,67466.0,4
-Gram,Uttarakhand,15924.0,4
-Maize,Uttarakhand,548879.0,4
-Potato,Uttarakhand,287209.0,4
-Moth,Uttarakhand,16518.0,4
-Other Summer Pulses,Uttarakhand,15.0,4
-Other Kharif pulses,Uttarakhand,258639.0,4
-Other  Rabi pulses,Uttarakhand,1950.0,4
-Onion,Uttarakhand,71553.0,4
-Moong(Green Gram),Uttarakhand,35409.0,4
-Masoor,Uttarakhand,237755.0,4
-Rapeseed &Mustard,Chandigarh,400.0,5
+Sannhamp,Uttarakhand,4007.0,4
+Potato,Uttarakhand,45894.0,4
+Garlic,Uttarakhand,65385.0,4
+Tobacco,Uttarakhand,1139.0,4
 Potato,Chandigarh,633.0,5
-Arhar/Tur,Chandigarh,108.0,5
-Maize,Chandigarh,1768.0,5
-Masoor,Chandigarh,25.0,5
-Moong(Green Gram),Chandigarh,7.0,5
-Urad,Chandigarh,57.0,5
-Sunflower,Chandigarh,10.0,5
 Onion,Chandigarh,119.0,5
-Gram,Chandigarh,7.0,5
-Rice,Chandigarh,1058.0,5
-Wheat,Chandigarh,13768.0,5
-Guar seed,Haryana,1010078.0,6
-Masoor,Haryana,98023.0,6
-Maize,Haryana,294653.0,6
-Jute,Haryana,652.0,6
-Jowar,Haryana,1860324.0,6
-Horse-gram,Haryana,18249.0,6
-Groundnut,Haryana,53541.0,6
-Gram,Haryana,2500388.0,6
-Moong(Green Gram),Haryana,358909.0,6
-Ginger,Haryana,2322.0,6
-Dry chillies,Haryana,20033.0,6
-Cotton(lint),Haryana,13351574.0,6
-Coriander,Haryana,17921.6,6
-Castor seed,Haryana,29641.0,6
-Barley,Haryana,764465.0,6
-Banana,Haryana,206.0,6
-Bajra,Haryana,12400553.0,6
-Garlic,Haryana,32197.0,6
-Arhar/Tur,Haryana,373906.0,6
-Moth,Haryana,71185.0,6
-Other  Rabi pulses,Haryana,104102.0,6
-other oilseeds,Haryana,12679.0,6
-Wheat,Haryana,55597433.0,6
-Urad,Haryana,43955.0,6
+Guar seed,Haryana,387815.0,6
 Turmeric,Haryana,14205.0,6
 Tobacco,Haryana,22.0,6
 Sweet potato,Haryana,1129.0,6
-Sunflower,Haryana,153557.0,6
-Onion,Haryana,245597.0,6
 Sugarcane,Haryana,2763551.0,6
-Sesamum,Haryana,68391.0,6
-Sannhamp,Haryana,6436.0,6
-Rice,Haryana,27058694.0,6
-Rapeseed &Mustard,Haryana,11557788.0,6
+Sannhamp,Haryana,6261.0,6
+Onion,Haryana,245597.0,6
+Banana,Haryana,206.0,6
+Coriander,Haryana,17921.6,6
+Cotton(lint),Haryana,631000.0,6
+Dry chillies,Haryana,20033.0,6
+Garlic,Haryana,32197.0,6
 Potato,Haryana,408377.0,6
-Peas & beans (Pulses),Haryana,138969.0,6
-Other Kharif pulses,Haryana,73283.0,6
-Soyabean,Haryana,5.0,6
-Arhar/Tur,Delhi,789.0,7
-Rice,Delhi,146782.0,7
-Barley,Delhi,2182.0,7
-Cotton(lint),Delhi,5.0,7
-Gram,Delhi,979.0,7
-Jowar,Delhi,132314.0,7
-Maize,Delhi,1248.0,7
-Other Kharif pulses,Delhi,1948.0,7
-Potato,Delhi,5216.0,7
-Rapeseed &Mustard,Delhi,3250.0,7
+Ginger,Haryana,2065.0,6
 Sugarcane,Delhi,59.0,7
-Wheat,Delhi,463517.0,7
-Bajra,Delhi,39614.0,7
-Castor seed,Uttar Pradesh,160.0,8
-Barley,Uttar Pradesh,4684701.0,8
-Banana,Uttar Pradesh,239938.0,8
-Gram,Uttar Pradesh,15084734.0,8
-Arhar/Tur,Uttar Pradesh,6857376.0,8
-Coriander,Uttar Pradesh,90599.0,8
-Bajra,Uttar Pradesh,20391499.0,8
-Cotton(lint),Uttar Pradesh,106359.0,8
-Maize,Uttar Pradesh,18799873.0,8
-Garlic,Uttar Pradesh,477437.0,8
-Soyabean,Uttar Pradesh,433729.0,8
-Small millets,Uttar Pradesh,981531.0,8
-Sesamum,Uttar Pradesh,5048687.0,8
-Sannhamp,Uttar Pradesh,55728.0,8
-Rice,Uttar Pradesh,133906498.0,8
-Rapeseed &Mustard,Uttar Pradesh,14595615.0,8
-Sweet potato,Uttar Pradesh,277574.0,8
-Tobacco,Uttar Pradesh,519466.0,8
-Turmeric,Uttar Pradesh,28430.0,8
-Dry chillies,Uttar Pradesh,230171.0,8
-Urad,Uttar Pradesh,10142547.0,8
-Ragi,Uttar Pradesh,273183.0,8
-Potato,Uttar Pradesh,11552511.0,8
-Sugarcane,Uttar Pradesh,48805555.0,8
-Peas & beans (Pulses),Uttar Pradesh,6739658.0,8
-Other  Rabi pulses,Uttar Pradesh,739695.0,8
-Onion,Uttar Pradesh,464911.0,8
-Moth,Uttar Pradesh,934689.0,8
-Moong(Green Gram),Uttar Pradesh,1673773.0,8
-Masoor,Uttar Pradesh,10488455.0,8
-Wheat,Uttar Pradesh,218762941.0,8
-Linseed,Uttar Pradesh,868533.0,8
-Jute,Uttar Pradesh,134.0,8
-Jowar,Uttar Pradesh,5375666.0,8
-Guar seed,Uttar Pradesh,35979.0,8
-Groundnut,Uttar Pradesh,2194479.0,8
-Ginger,Uttar Pradesh,11424.0,8
-Other Kharif pulses,Uttar Pradesh,606775.0,8
-Sunflower,Uttar Pradesh,191622.0,8
-Guar seed,Rajasthan,64948610.0,9
-Masoor,Rajasthan,691127.0,9
-Linseed,Rajasthan,121032.0,9
-Maize,Rajasthan,22666024.0,9
-Mesta,Rajasthan,1661.0,9
-Groundnut,Rajasthan,8957926.0,9
-Moong(Green Gram),Rajasthan,24271253.0,9
-Jowar,Rajasthan,14086704.0,9
-Ginger,Rajasthan,3786.0,9
-Sunflower,Rajasthan,1684.0,9
-Dry chillies,Rajasthan,408376.0,9
-Cotton(lint),Rajasthan,11213077.0,9
-Coriander,Rajasthan,3811345.0,9
-Castor seed,Rajasthan,3070106.0,9
-Barley,Rajasthan,5700266.0,9
-Banana,Rajasthan,215.0,9
-Bajra,Rajasthan,105745327.0,9
-Arhar/Tur,Rajasthan,439082.0,9
-Moth,Rajasthan,24448839.0,9
-Garlic,Rajasthan,854993.0,9
-Onion,Rajasthan,1039066.0,9
-Gram,Rajasthan,31491519.0,9
-Other Kharif pulses,Rajasthan,2254339.0,9
-other oilseeds,Rajasthan,3383853.0,9
-Wheat,Rajasthan,62139037.0,9
-Urad,Rajasthan,5735756.0,9
+Potato,Delhi,5216.0,7
+Moth,Uttar Pradesh,204.0,8
+Guar seed,Uttar Pradesh,7282.0,8
+Coriander,Uttar Pradesh,11106.0,8
+Dry chillies,Uttar Pradesh,49097.0,8
+Banana,Uttar Pradesh,5608.0,8
+Sannhamp,Uttar Pradesh,17298.0,8
+Potato,Uttar Pradesh,2937582.0,8
+Turmeric,Uttar Pradesh,6782.0,8
+Sugarcane,Uttar Pradesh,14203245.0,8
+Garlic,Uttar Pradesh,63096.0,8
+Tobacco,Uttar Pradesh,148781.0,8
+Sweet potato,Uttar Pradesh,43572.0,8
+Onion,Uttar Pradesh,97641.0,8
+Peas & beans (Pulses),Uttar Pradesh,408085.0,8
 Turmeric,Rajasthan,3442.0,9
-Tobacco,Rajasthan,13092.0,9
+Moth,Rajasthan,2697.0,9
+Guar seed,Rajasthan,64948610.0,9
+other oilseeds,Rajasthan,303256.0,9
+Tobacco,Rajasthan,12126.0,9
+Garlic,Rajasthan,854993.0,9
 Sweet potato,Rajasthan,27991.0,9
-Other  Rabi pulses,Rajasthan,161974.0,9
-Sugarcane,Rajasthan,207094.0,9
-Tapioca,Rajasthan,108.0,9
-Soyabean,Rajasthan,18363110.0,9
+Sugarcane,Rajasthan,184494.0,9
+Ginger,Rajasthan,897.0,9
+Dry chillies,Rajasthan,408376.0,9
+Coriander,Rajasthan,3811345.0,9
+Banana,Rajasthan,215.0,9
 Potato,Rajasthan,183981.0,9
-Rapeseed &Mustard,Rajasthan,58061829.0,9
-Rice,Rajasthan,3444972.0,9
-Peas & beans (Pulses),Rajasthan,232044.0,9
-Sesamum,Rajasthan,7920965.0,9
-Small millets,Rajasthan,319586.0,9
-Sannhamp,Rajasthan,28174.0,9
-Small millets,Arunachal Pradesh,520784.0,10
-Oilseeds total,Arunachal Pradesh,661828.0,10
-Other  Rabi pulses,Arunachal Pradesh,5052.0,10
-Other Kharif pulses,Arunachal Pradesh,9936.0,10
-Peas & beans (Pulses),Arunachal Pradesh,17363.0,10
-Potato,Arunachal Pradesh,106915.0,10
-Rapeseed &Mustard,Arunachal Pradesh,153770.0,10
-Rice,Arunachal Pradesh,2868173.0,10
-Sesamum,Arunachal Pradesh,10885.0,10
-Soyabean,Arunachal Pradesh,17561.0,10
-Ginger,Arunachal Pradesh,135712.0,10
+Onion,Rajasthan,1019666.0,9
+Tapioca,Rajasthan,108.0,9
+Sannhamp,Rajasthan,22210.0,9
 Turmeric,Arunachal Pradesh,13388.0,10
-Urad,Arunachal Pradesh,10287.0,10
-Wheat,Arunachal Pradesh,86752.0,10
-other oilseeds,Arunachal Pradesh,2831.0,10
-Maize,Arunachal Pradesh,1003803.0,10
-Groundnut,Arunachal Pradesh,5056.0,10
-Moong(Green Gram),Arunachal Pradesh,5186.0,10
-Sugarcane,Arunachal Pradesh,30689.0,10
+Sugarcane,Arunachal Pradesh,30008.0,10
+Potato,Arunachal Pradesh,106915.0,10
+Oilseeds total,Arunachal Pradesh,661828.0,10
+Ginger,Arunachal Pradesh,135712.0,10
 Dry chillies,Arunachal Pradesh,51430.0,10
-Arhar/Tur,Arunachal Pradesh,3231.0,10
-Sunflower,Arunachal Pradesh,3141.0,10
-Masoor,Arunachal Pradesh,1758.0,10
-Other  Rabi pulses,Sikkim,4610.0,11
-Wheat,Sikkim,94119.0,11
-Barley,Sikkim,19562.0,11
-Maize,Sikkim,908408.0,11
-other oilseeds,Sikkim,320.0,11
-Other Kharif pulses,Sikkim,54565.0,11
 Potato,Sikkim,13230.0,11
-Other Cereals,Sikkim,37913.0,11
-Rice,Sikkim,279231.0,11
-Small millets,Sikkim,79339.0,11
-Soyabean,Sikkim,83445.0,11
-Urad,Sikkim,76067.0,11
-Rapeseed &Mustard,Sikkim,108590.0,11
-Sugarcane,Assam,649354.0,12
-Turmeric,Assam,316927.0,12
-Tobacco,Assam,13661.0,12
-Tapioca,Assam,68439.0,12
-Sweet potato,Assam,161993.0,12
-Small millets,Assam,160585.0,12
-Dry chillies,Assam,392715.0,12
-Rice,Assam,56963430.0,12
-Black pepper,Assam,43384.0,12
-Wheat,Assam,1130121.0,12
+other oilseeds,Sikkim,120.0,11
+Maize,Sikkim,23580.0,11
+Sugarcane,Assam,618036.0,12
+Arecanut,Assam,857394.0,12
 Banana,Assam,973678.0,12
-Arhar/Tur,Assam,147480.0,12
-Arecanut,Assam,1530541.0,12
-Castor seed,Assam,26786.0,12
+Black pepper,Assam,43384.0,12
 Coconut ,Assam,444197.0,12
-Cotton(lint),Assam,30725.0,12
+Dry chillies,Assam,392715.0,12
 Ginger,Assam,215868.0,12
-Gram,Assam,50448.0,12
-Sesamum,Assam,301079.0,12
-Jute,Assam,1554398.0,12
-Maize,Assam,507782.0,12
-Masoor,Assam,453709.0,12
-Mesta,Assam,108473.0,12
-Moong(Green Gram),Assam,174950.0,12
-Niger seed,Assam,183272.0,12
+Niger seed,Assam,9914.0,12
 Onion,Assam,173679.0,12
-Other  Rabi pulses,Assam,904943.0,12
-Peas & beans (Pulses),Assam,478746.0,12
 Potato,Assam,2001326.0,12
-Rapeseed &Mustard,Assam,6106905.0,12
-Linseed,Assam,174816.0,12
-Urad,Assam,898190.0,12
-Urad,West Bengal,1526444.0,13
-Wheat,West Bengal,7582418.0,13
-Gram,West Bengal,734899.0,13
-Coconut ,West Bengal,643681.0,13
-Castor seed,West Bengal,1803.0,13
-Cardamom,West Bengal,23042.874,13
-Barley,West Bengal,60968.0,13
-Ginger,West Bengal,102093.0,13
-Bajra,West Bengal,3304.0,13
-Arhar/Tur,West Bengal,62252.0,13
-Cotton(lint),West Bengal,56337.0,13
-Arecanut,West Bengal,115797.0,13
-Horse-gram,West Bengal,65696.0,13
-Moong(Green Gram),West Bengal,590921.0,13
-Mesta,West Bengal,209592.0,13
-Masoor,West Bengal,1786558.0,13
-Maize,West Bengal,2542102.0,13
-Linseed,West Bengal,154376.0,13
-Khesari,West Bengal,934994.0,13
-Groundnut,West Bengal,1287678.0,13
-Dry chillies,West Bengal,718201.0,13
-Garlic,West Bengal,3414.0,13
-Moth,West Bengal,63.0,13
-Turmeric,West Bengal,157547.0,13
+Sesamum,Assam,15765.0,12
+Tobacco,Assam,13661.0,12
+Sweet potato,Assam,161993.0,12
+Tapioca,Assam,68439.0,12
+Turmeric,Assam,316927.0,12
 Tobacco,West Bengal,277473.0,13
-Sunflower,West Bengal,156694.0,13
+Groundnut,West Bengal,212452.0,13
+Dry chillies,West Bengal,593368.0,13
+Coconut ,West Bengal,643681.0,13
+Castor seed,West Bengal,660.0,13
+Cardamom,West Bengal,23042.874,13
+Arecanut,West Bengal,115797.0,13
+Barley,West Bengal,6116.0,13
+Arhar/Tur,West Bengal,3630.0,13
+Turmeric,West Bengal,157547.0,13
+Maize,West Bengal,35469.0,13
+Jowar,West Bengal,948.0,13
+Linseed,West Bengal,16486.0,13
+Niger seed,West Bengal,6512.0,13
+Rapeseed &Mustard,West Bengal,327123.0,13
+Safflower,West Bengal,10800.0,13
+Sannhamp,West Bengal,13573.0,13
+Sesamum,West Bengal,1104677.0,13
+Small millets,West Bengal,5046.0,13
 Sugarcane,West Bengal,426114.0,13
-Soyabean,West Bengal,13046.0,13
-Small millets,West Bengal,74849.0,13
-Sesamum,West Bengal,4124045.0,13
-Sannhamp,West Bengal,25042.0,13
-Safflower,West Bengal,18834.0,13
-Rice,West Bengal,129455241.0,13
-Rapeseed &Mustard,West Bengal,10208541.0,13
-Ragi,West Bengal,245970.0,13
-Potato,West Bengal,8646952.0,13
-Peas & beans (Pulses),West Bengal,272517.0,13
-Other Kharif pulses,West Bengal,28804.0,13
-Other  Rabi pulses,West Bengal,4247.0,13
-Niger seed,West Bengal,50918765.0,13
-Jute,West Bengal,13403803.0,13
-Jowar,West Bengal,17147.0,13
-Barley,Nagaland,26120.0,14
-Wheat,Nagaland,77590.0,14
-Urad,Nagaland,9970.0,14
-Turmeric,Nagaland,900.0,14
-Tapioca,Nagaland,26840.0,14
-Sunflower,Nagaland,48190.0,14
-Sugarcane,Nagaland,72010.0,14
-Soyabean,Nagaland,501050.0,14
-Small millets,Nagaland,213300.0,14
-Sesamum,Nagaland,89600.0,14
-Rice,Nagaland,3995020.0,14
-Rapeseed &Mustard,Nagaland,530304.0,14
-other oilseeds,Nagaland,12330.0,14
-Sweet potato,Nagaland,14460.0,14
-Other Cereals,Nagaland,5150.0,14
-Other Kharif pulses,Nagaland,100810.0,14
-Arhar/Tur,Nagaland,83411.0,14
-Bajra,Nagaland,24080.0,14
-Cardamom,Nagaland,1900.0,14
-Castor seed,Nagaland,5670.0,14
-Cotton(lint),Nagaland,6926.7,14
-Cowpea(Lobia),Nagaland,3670.0,14
-Dry chillies,Nagaland,3200.0,14
-Ginger,Nagaland,44120.0,14
-Gram,Nagaland,15950.0,14
-Groundnut,Nagaland,30970.0,14
-Horse-gram,Nagaland,4120.0,14
-Jowar,Nagaland,17860.0,14
-Jute,Nagaland,82070.0,14
-Linseed,Nagaland,145210.0,14
-Maize,Nagaland,1304330.0,14
-Masoor,Nagaland,34890.0,14
-Mesta,Nagaland,20130.0,14
-Moong(Green Gram),Nagaland,19160.0,14
-Niger seed,Nagaland,443550.0,14
-Other  Rabi pulses,Nagaland,111470.0,14
-Ragi,Nagaland,3610.0,14
-Peas & beans (Pulses),Nagaland,171420.0,14
-Potato,Nagaland,125370.0,14
-Wheat,Bihar,48615978.0,15
-Bajra,Bihar,75487.0,15
-Other Kharif pulses,Bihar,214576.0,15
-Urad,Bihar,431517.0,15
-Arhar/Tur,Bihar,735816.0,15
+Sunflower,West Bengal,278.0,13
+Potato,West Bengal,3379839.0,13
+Sugarcane,Nagaland,18520.0,14
+Potato,Nagaland,36530.0,14
 Turmeric,Bihar,44881.0,15
-Tobacco,Bihar,271266.0,15
-Sweet potato,Bihar,73562.0,15
-Sunflower,Bihar,356766.0,15
+Tobacco,Bihar,250705.0,15
+Sweet potato,Bihar,69801.0,15
 Sugarcane,Bihar,3413737.0,15
-Onion,Bihar,227537.0,15
-Soyabean,Bihar,19600.0,15
-Sesamum,Bihar,91105.0,15
-Sannhamp,Bihar,44137.0,15
-Safflower,Bihar,6082.0,15
-Rice,Bihar,76820596.0,15
-Rapeseed &Mustard,Bihar,2021565.0,15
-Ragi,Bihar,428855.0,15
-Potato,Bihar,2285823.0,15
-Peas & beans (Pulses),Bihar,436839.0,15
-Small millets,Bihar,171645.0,15
-Niger seed,Bihar,50793.0,15
-Other  Rabi pulses,Bihar,621198.0,15
-Moong(Green Gram),Bihar,3462631.0,15
-Masoor,Bihar,3404525.0,15
-Mesta,Bihar,429051.0,15
-Maize,Bihar,15364129.0,15
-Linseed,Bihar,629334.0,15
-Khesari,Bihar,1932096.0,15
-Jute,Bihar,2777665.0,15
-Horse-gram,Bihar,199855.0,15
-Groundnut,Bihar,23147.0,15
-Jowar,Bihar,80837.0,15
-Ginger,Bihar,8504.0,15
+Sannhamp,Bihar,23295.0,15
+Ragi,Bihar,74292.0,15
+Potato,Bihar,1499319.0,15
+Onion,Bihar,174794.0,15
+Ginger,Bihar,3881.0,15
 Garlic,Bihar,35706.0,15
 Dry chillies,Bihar,42912.0,15
-Cotton(lint),Bihar,243.0,15
-Coriander,Bihar,34480.0,15
-Castor seed,Bihar,4078.0,15
-Barley,Bihar,371353.0,15
 Banana,Bihar,162341.0,15
-Gram,Bihar,1573183.0,15
-Coriander,Meghalaya,1510.0,16
-Arecanut,Meghalaya,292735.0,16
-Arhar/Tur,Meghalaya,20752.0,16
-Banana,Meghalaya,135539.0,16
-Black pepper,Meghalaya,12485.0,16
-Cashewnut,Meghalaya,109954.0,16
-Cotton(lint),Meghalaya,166482.0,16
-Castor seed,Meghalaya,942.0,16
-Dry chillies,Meghalaya,41830.0,16
-Wheat,Meghalaya,27098.0,16
-Turmeric,Meghalaya,42367.0,16
-Tobacco,Meghalaya,16824.0,16
-Tapioca,Meghalaya,99378.0,16
-Sweet potato,Meghalaya,109793.0,16
+Coriander,Bihar,34480.0,15
+Arecanut,Meghalaya,190839.0,16
 Sugarcane,Meghalaya,2153.0,16
-Soyabean,Meghalaya,26165.0,16
-Small millets,Meghalaya,59573.0,16
-Sesamum,Meghalaya,41117.0,16
-Rice,Meghalaya,2467674.0,16
-Rapeseed &Mustard,Meghalaya,185757.0,16
-Potato,Meghalaya,405983.0,16
-Peas & beans (Pulses),Meghalaya,21313.0,16
-Other  Rabi pulses,Meghalaya,23550.0,16
-Onion,Meghalaya,3240.0,16
-Mesta,Meghalaya,103550.0,16
-Maize,Meghalaya,400140.0,16
-Linseed,Meghalaya,1538.0,16
-Jute,Meghalaya,113576.0,16
-Gram,Meghalaya,22326.0,16
-Ginger,Meghalaya,201757.0,16
+Potato,Meghalaya,275096.0,16
+Mesta,Meghalaya,1732.0,16
+Maize,Meghalaya,54077.0,16
 Garlic,Meghalaya,365.0,16
-Cowpea(Lobia),Meghalaya,11554.0,16
-Masoor,Meghalaya,9756.0,16
-Cowpea(Lobia),Manipur,9514.0,17
-Cotton(lint),Manipur,690.0,17
+Dry chillies,Meghalaya,39960.0,16
+Coriander,Meghalaya,1510.0,16
+Cashewnut,Meghalaya,58602.0,16
+Black pepper,Meghalaya,6482.0,16
+Tobacco,Meghalaya,7141.0,16
+Turmeric,Meghalaya,40455.0,16
+Banana,Meghalaya,51325.0,16
+Tapioca,Meghalaya,40108.0,16
+Sweet potato,Meghalaya,50348.0,16
+Sweet potato,Manipur,864.0,17
+Sugarcane,Manipur,64047.0,17
+Potato,Manipur,182780.0,17
+Onion,Manipur,6340.0,17
+Turmeric,Manipur,23628.0,17
+Dry chillies,Manipur,140736.0,17
+Tapioca,Manipur,496.0,17
+Banana,Manipur,111367.0,17
 Cashewnut,Manipur,743.0,17
-Banana,Manipur,115497.0,17
-Arhar/Tur,Manipur,5391.0,17
-Sweet potato,Manipur,944.0,17
-Ginger,Manipur,56716.0,17
-Dry chillies,Manipur,149566.0,17
-Urad,Manipur,14882.0,17
-Turmeric,Manipur,23798.0,17
-Tapioca,Manipur,526.0,17
-Sugarcane,Manipur,64757.0,17
-Soyabean,Manipur,52762.0,17
-Sesamum,Manipur,10390.0,17
-Rice,Manipur,3910895.0,17
-Rapeseed &Mustard,Manipur,354600.0,17
-Potato,Manipur,185800.0,17
-Wheat,Manipur,34060.0,17
-Other Kharif pulses,Manipur,35327.0,17
-Peas & beans (Pulses),Manipur,259338.0,17
-Groundnut,Manipur,33413.0,17
-Jute,Manipur,40.0,17
-Maize,Manipur,312896.0,17
-Gram,Manipur,8939.0,17
-Moong(Green Gram),Manipur,4464.0,17
-Onion,Manipur,7022.0,17
-Other  Rabi pulses,Manipur,67149.0,17
-Masoor,Manipur,7520.0,17
-Sannhamp,Madhya Pradesh,56654.0,18
-Peas & beans (Pulses),Madhya Pradesh,3487941.0,18
-Potato,Madhya Pradesh,1557448.52,18
-Ragi,Madhya Pradesh,18629.0,18
-Rapeseed &Mustard,Madhya Pradesh,15211464.0,18
-Rice,Madhya Pradesh,49003463.0,18
-Safflower,Madhya Pradesh,63300.0,18
-Sesamum,Madhya Pradesh,5823212.0,18
-Sweet potato,Madhya Pradesh,83863.27,18
-Soyabean,Madhya Pradesh,117835707.0,18
-Sugarcane,Madhya Pradesh,1480341.0,18
-Sunflower,Madhya Pradesh,45976.0,18
-Tobacco,Madhya Pradesh,1894.0,18
-Turmeric,Madhya Pradesh,626184.19,18
-Urad,Madhya Pradesh,15609718.0,18
-Wheat,Madhya Pradesh,116638274.0,18
-Other Kharif pulses,Madhya Pradesh,3303380.0,18
-Small millets,Madhya Pradesh,6240417.0,18
-Other Cereals,Madhya Pradesh,112300.0,18
+Bajra,Madhya Pradesh,197914.0,18
+Barley,Madhya Pradesh,75065.0,18
+Arhar/Tur,Madhya Pradesh,324870.0,18
+Safflower,Madhya Pradesh,409.0,18
+Sannhamp,Madhya Pradesh,38464.0,18
+Sesamum,Madhya Pradesh,4128882.0,18
 Cashewnut,Madhya Pradesh,1.0,18
-Onion,Madhya Pradesh,1419978.71,18
-Arhar/Tur,Madhya Pradesh,9055006.0,18
-Bajra,Madhya Pradesh,4790143.0,18
+Castor seed,Madhya Pradesh,1361.0,18
 Banana,Madhya Pradesh,279412.93,18
-Castor seed,Madhya Pradesh,48280.0,18
-Other  Rabi pulses,Madhya Pradesh,4366215.0,18
-Coriander,Madhya Pradesh,3203489.07,18
-Cotton(lint),Madhya Pradesh,13166985.0,18
-Cowpea(Lobia),Madhya Pradesh,7160.0,18
-Dry chillies,Madhya Pradesh,962968.44,18
 Garlic,Madhya Pradesh,1494468.5,18
-Ginger,Madhya Pradesh,202104.83,18
-Barley,Madhya Pradesh,1735998.0,18
-Groundnut,Madhya Pradesh,5017826.0,18
-Moong(Green Gram),Madhya Pradesh,2239399.0,18
-Niger seed,Madhya Pradesh,1831056.0,18
-Maize,Madhya Pradesh,21992692.0,18
-Gram,Madhya Pradesh,60028915.0,18
-Masoor,Madhya Pradesh,8503002.0,18
-Mesta,Madhya Pradesh,12159.0,18
-Horse-gram,Madhya Pradesh,308994.0,18
-Jowar,Madhya Pradesh,10481475.0,18
-Jute,Madhya Pradesh,24046.0,18
-Khesari,Madhya Pradesh,403744.0,18
-Linseed,Madhya Pradesh,3312310.0,18
-Potato,Jharkhand,498933.32,19
-Wheat,Jharkhand,1626455.3,19
-Urad,Jharkhand,483163.0,19
-Sunflower,Jharkhand,3781.0,19
+Cotton(lint),Madhya Pradesh,623072.0,18
+Potato,Madhya Pradesh,1557448.52,18
+Peas & beans (Pulses),Madhya Pradesh,194056.0,18
+Onion,Madhya Pradesh,1419978.71,18
+Niger seed,Madhya Pradesh,95632.0,18
+Mesta,Madhya Pradesh,1101.0,18
+Masoor,Madhya Pradesh,519238.0,18
+Coriander,Madhya Pradesh,3203489.07,18
+Maize,Madhya Pradesh,812456.0,18
+Khesari,Madhya Pradesh,53778.0,18
+Groundnut,Madhya Pradesh,207062.0,18
+Gram,Madhya Pradesh,3007732.0,18
+Ginger,Madhya Pradesh,166690.83,18
+Rice,Madhya Pradesh,1593071.0,18
+Dry chillies,Madhya Pradesh,962968.44,18
+Linseed,Madhya Pradesh,106966.0,18
+Small millets,Madhya Pradesh,298646.0,18
+Sweet potato,Madhya Pradesh,83863.27,18
+Sugarcane,Madhya Pradesh,1480341.0,18
+Soyabean,Madhya Pradesh,5439849.0,18
+Wheat,Madhya Pradesh,4458995.0,18
+Turmeric,Madhya Pradesh,626184.19,18
+Tobacco,Madhya Pradesh,1894.0,18
+Rapeseed &Mustard,Madhya Pradesh,768719.0,18
+Sunflower,Madhya Pradesh,996.0,18
+Ragi,Madhya Pradesh,382.0,18
+Onion,Jharkhand,1137.98,19
 Sugarcane,Jharkhand,7657.13,19
-Soyabean,Jharkhand,9215.0,19
-Sesamum,Jharkhand,36646.0,19
-Safflower,Jharkhand,3099.0,19
-Arhar/Tur,Jharkhand,1045767.19,19
-Bajra,Jharkhand,1032.0,19
-Barley,Jharkhand,7482.389999999999,19
-Castor seed,Jharkhand,252.0,19
-Gram,Jharkhand,985414.54,19
-Groundnut,Jharkhand,88433.0,19
-Jowar,Jharkhand,7171.0,19
-Linseed,Jharkhand,131381.0,19
-Maize,Jharkhand,2012435.21,19
-Masoor,Jharkhand,261799.8,19
-Moong(Green Gram),Jharkhand,82305.0,19
-Niger seed,Jharkhand,12803.0,19
-Onion,Jharkhand,39519.25,19
-Other  Rabi pulses,Jharkhand,55850.0,19
-Other Kharif pulses,Jharkhand,68825.0,19
-Peas & beans (Pulses),Jharkhand,179807.0,19
-Ragi,Jharkhand,452199.19,19
-Horse-gram,Jharkhand,51405.0,19
-Rice,Jharkhand,21180971.62,19
-Rapeseed &Mustard,Jharkhand,1101723.81,19
-Cowpea(Lobia),Tripura,20797.0,20
-Cotton(lint),Tripura,21717.0,20
-Arhar/Tur,Tripura,44003.0,20
-Jowar,Tripura,3380.0,20
-Jute,Tripura,10905.0,20
-Khesari,Tripura,80.0,20
-Linseed,Tripura,270.0,20
-Maize,Tripura,115054.0,20
-Masoor,Tripura,22648.0,20
-Mesta,Tripura,14240.0,20
-Moong(Green Gram),Tripura,56610.0,20
-Gram,Tripura,3041.0,20
-Other  Rabi pulses,Tripura,15537.0,20
-Peas & beans (Pulses),Tripura,27735.0,20
-Potato,Tripura,27910.0,20
-Rapeseed &Mustard,Tripura,65504.0,20
-Rice,Tripura,5646153.0,20
-Sesamum,Tripura,53519.0,20
-Small millets,Tripura,1886.0,20
-Soyabean,Tripura,1380.0,20
 Sugarcane,Tripura,20265.0,20
-Urad,Tripura,39822.0,20
-Wheat,Tripura,14539.0,20
-other oilseeds,Tripura,5149.0,20
-Other Kharif pulses,Tripura,27576.0,20
-Groundnut,Tripura,18808.0,20
-Sunflower,Mizoram,49.0,21
-Arhar/Tur,Mizoram,3605.8,21
-Tapioca,Mizoram,4233.0,21
+other oilseeds,Tripura,5003.0,20
+Moong(Green Gram),Tripura,26690.0,20
+Potato,Tripura,27910.0,20
+Tobacco,Mizoram,5713.0,21
+Tapioca,Mizoram,1156.0,21
 Sugarcane,Mizoram,29448.8,21
-Soyabean,Mizoram,22283.0,21
-Sesamum,Mizoram,36167.3,21
-Tobacco,Mizoram,7068.5,21
-Rapeseed &Mustard,Mizoram,19379.0,21
-Potato,Mizoram,7363.0,21
-Peas & beans (Pulses),Mizoram,1725.4,21
-Other Kharif pulses,Mizoram,34263.0,21
-Other  Rabi pulses,Mizoram,26930.1,21
-Onion,Mizoram,193.2,21
-Moong(Green Gram),Mizoram,362.27,21
-Masoor,Mizoram,174.5,21
-Maize,Mizoram,176390.4,21
-Groundnut,Mizoram,228.0,21
-Gram,Mizoram,46.0,21
-Cowpea(Lobia),Mizoram,13164.7,21
-Cotton(lint),Mizoram,5191.3,21
-Coconut ,Mizoram,15.0,21
-other oilseeds,Mizoram,47639.0,21
-Rice,Mizoram,1105960.2,21
-Wheat,Mizoram,123.0,21
-Urad,Mizoram,186.0,21
-Wheat,Gujarat,21417524.0,22
-Arhar/Tur,Gujarat,6441106.0,22
-Banana,Gujarat,583910.0,22
-Castor seed,Gujarat,11095340.0,22
-Cotton(lint),Gujarat,51516424.0,22
-Dry chillies,Gujarat,209951.0,22
-Garlic,Gujarat,473978.0,22
-Gram,Gujarat,3695891.0,22
-Groundnut,Gujarat,40974666.0,22
-Guar seed,Gujarat,4266369.0,22
-Jowar,Gujarat,3280147.0,22
-Maize,Gujarat,10048414.0,22
-Moong(Green Gram),Gujarat,3774648.0,22
-Moth,Gujarat,765186.0,22
-Oilseeds total,Gujarat,2902856.0,22
-Onion,Gujarat,1047520.0,22
-Other Cereals,Gujarat,521693.0,22
-Other Kharif pulses,Gujarat,435390.0,22
-Potato,Gujarat,1533360.0,22
-Ragi,Gujarat,428024.0,22
-Rapeseed &Mustard,Gujarat,5751284.0,22
-Rice,Gujarat,16777323.0,22
-Sesamum,Gujarat,5949794.0,22
-Small millets,Gujarat,179610.0,22
-Soyabean,Gujarat,873467.0,22
+Rice,Mizoram,124574.0,21
+Potato,Mizoram,2901.0,21
 Sugarcane,Gujarat,4312813.0,22
-Tobacco,Gujarat,2628034.0,22
-Urad,Gujarat,2443701.0,22
-other oilseeds,Gujarat,171600.0,22
-Other  Rabi pulses,Gujarat,325482.0,22
-Bajra,Gujarat,17608828.2,22
-Rice,Chhattisgarh,78738887.0,23
-Other  Rabi pulses,Chhattisgarh,44349.0,23
-Peas & beans (Pulses),Chhattisgarh,277547.0,23
-Potato,Chhattisgarh,224228.0,23
-Ragi,Chhattisgarh,163573.0,23
-Rapeseed &Mustard,Chhattisgarh,968311.0,23
-Safflower,Chhattisgarh,13245.0,23
-Sannhamp,Chhattisgarh,28199.0,23
-Sesamum,Chhattisgarh,408941.0,23
-Onion,Chhattisgarh,92914.0,23
-Small millets,Chhattisgarh,3437330.0,23
-Sugarcane,Chhattisgarh,315473.0,23
-Sunflower,Chhattisgarh,72155.0,23
-Sweet potato,Chhattisgarh,53166.0,23
-Arhar/Tur,Chhattisgarh,1074691.0,23
-Wheat,Chhattisgarh,2009486.0,23
-Urad,Chhattisgarh,2107176.0,23
-Turmeric,Chhattisgarh,21667.0,23
-Tobacco,Chhattisgarh,468.0,23
-Soyabean,Chhattisgarh,1411224.0,23
-Niger seed,Chhattisgarh,1326398.0,23
-Other Kharif pulses,Chhattisgarh,137726.0,23
-Mesta,Chhattisgarh,24039.0,23
-Bajra,Chhattisgarh,16930.0,23
-Barley,Chhattisgarh,59530.0,23
-Castor seed,Chhattisgarh,1656.0,23
-Coconut ,Chhattisgarh,447.0,23
-Coriander,Chhattisgarh,60040.0,23
-Cotton(lint),Chhattisgarh,6327.0,23
-Dry chillies,Chhattisgarh,127179.0,23
-Moong(Green Gram),Chhattisgarh,300541.0,23
+Sesamum,Gujarat,295600.0,22
+Onion,Gujarat,490800.0,22
+Ragi,Gujarat,18900.0,22
+Potato,Gujarat,1533360.0,22
+Oilseeds total,Gujarat,2902856.0,22
+Maize,Gujarat,399800.0,22
+Garlic,Gujarat,473978.0,22
+Dry chillies,Gujarat,191551.0,22
+Rice,Gujarat,672600.0,22
+Guar seed,Gujarat,4121583.0,22
+Tobacco,Gujarat,872300.0,22
+Cotton(lint),Gujarat,1518900.0,22
+Castor seed,Gujarat,337000.0,22
+Banana,Gujarat,583910.0,22
+other oilseeds,Gujarat,69600.0,22
 Ginger,Chhattisgarh,34940.0,23
-Gram,Chhattisgarh,5161158.0,23
-Garlic,Chhattisgarh,20506.0,23
-Guar seed,Chhattisgarh,26.0,23
-Masoor,Chhattisgarh,318070.0,23
-Groundnut,Chhattisgarh,604092.0,23
-Linseed,Chhattisgarh,889340.0,23
-Khesari,Chhattisgarh,6702946.0,23
-Maize,Chhattisgarh,2173783.0,23
-Jowar,Chhattisgarh,121700.0,23
-Horse-gram,Chhattisgarh,983237.0,23
-Jute,Chhattisgarh,2553.0,23
-Small millets,Odisha,239595.0,24
-Ragi,Odisha,1558493.0,24
-Rapeseed &Mustard,Odisha,392840.0,24
-Rice,Odisha,101876343.0,24
-Safflower,Odisha,12714.0,24
-Sannhamp,Odisha,27490.0,24
-Sesamum,Odisha,1100210.0,24
-Soyabean,Odisha,60.0,24
-Groundnut,Odisha,1688265.0,24
-Sunflower,Odisha,57928.0,24
-Sweet potato,Odisha,303942.0,24
-Tobacco,Odisha,30780.0,24
-Turmeric,Odisha,181130.0,24
-Urad,Odisha,2978268.0,24
-Wheat,Odisha,86373.0,24
-Potato,Odisha,162125.0,24
-Sugarcane,Odisha,318270.0,24
-Peas & beans (Pulses),Odisha,33400.0,24
-Cowpea(Lobia),Odisha,68310.0,24
-Other  Rabi pulses,Odisha,219680.0,24
-Arhar/Tur,Odisha,1019803.0,24
-Bajra,Odisha,24195.0,24
-Castor seed,Odisha,114953.0,24
-Coriander,Odisha,128380.0,24
-Cotton(lint),Odisha,246840.0,24
-Dry chillies,Odisha,542313.0,24
-Garlic,Odisha,81654.0,24
-Other Kharif pulses,Odisha,176930.0,24
-Gram,Odisha,193001.0,24
-Ginger,Odisha,101804.0,24
-Moong(Green Gram),Odisha,5722235.0,24
-Jowar,Odisha,76991.0,24
-Jute,Odisha,174305.0,24
-Linseed,Odisha,138476.0,24
-Maize,Odisha,1698177.0,24
-Masoor,Odisha,53810.0,24
-Mesta,Odisha,58940.0,24
-Horse-gram,Odisha,1639181.0,24
-Niger seed,Odisha,910482.0,24
-Onion,Odisha,207974.0,24
-Sesamum,Maharashtra,1646130.0,25
-Safflower,Maharashtra,3954612.0,25
-Ragi,Maharashtra,2908564.0,25
-Rapeseed &Mustard,Maharashtra,179263.0,25
-Small millets,Maharashtra,5870990.0,25
-Rice,Maharashtra,34801017.0,25
-Soyabean,Maharashtra,58424954.0,25
-Jowar,Maharashtra,93936438.0,25
-Sunflower,Maharashtra,4597374.0,25
-other oilseeds,Maharashtra,58473.0,25
-Wheat,Maharashtra,22311279.75,25
-Urad,Maharashtra,10230364.0,25
+Bajra,Chhattisgarh,15199.0,23
+Coconut ,Chhattisgarh,370.0,23
+Coriander,Chhattisgarh,60023.0,23
+Garlic,Chhattisgarh,20465.0,23
+Cotton(lint),Chhattisgarh,4857.0,23
+Dry chillies,Chhattisgarh,127179.0,23
+Sannhamp,Chhattisgarh,20287.0,23
+Jowar,Chhattisgarh,28362.0,23
+Sugarcane,Chhattisgarh,271376.0,23
+Sunflower,Chhattisgarh,1476.0,23
+Sweet potato,Chhattisgarh,53166.0,23
+Tobacco,Chhattisgarh,468.0,23
+Turmeric,Chhattisgarh,21667.0,23
+Potato,Chhattisgarh,83420.0,23
+Onion,Chhattisgarh,92737.0,23
+Onion,Odisha,172854.0,24
+Sannhamp,Odisha,22610.0,24
+Potato,Odisha,47837.0,24
+Garlic,Odisha,50544.0,24
+Sugarcane,Odisha,56505.0,24
+Sweet potato,Odisha,217182.0,24
+Dry chillies,Odisha,365803.0,24
+Turmeric,Odisha,123010.0,24
+Coriander,Odisha,83230.0,24
+Tobacco,Odisha,30650.0,24
 Tobacco,Maharashtra,6671.0,25
-Other Summer Pulses,Maharashtra,19049.0,25
-Sugarcane,Maharashtra,17184647.0,25
-Other Kharif pulses,Maharashtra,3379470.0,25
-Castor seed,Maharashtra,254561.0,25
-Other  Rabi pulses,Maharashtra,2612049.0,25
+Sugarcane,Maharashtra,16471547.0,25
 Onion,Maharashtra,133622.0,25
-Niger seed,Maharashtra,867045.0,25
-Moong(Green Gram),Maharashtra,12322496.0,25
-Maize,Maharashtra,15612795.0,25
-Linseed,Maharashtra,969653.0,25
-Groundnut,Maharashtra,8306581.0,25
-Gram,Maharashtra,28448729.0,25
-Cotton(lint),Maharashtra,78908059.0,25
-Other Cereals,Maharashtra,563223.0,25
-Arhar/Tur,Maharashtra,26558259.0,25
-Bajra,Maharashtra,26815484.4,25
+Cotton(lint),Maharashtra,31292.0,25
 Banana,Maharashtra,57700.0,25
-Bajra,Daman and Diu,6906.3,26
-Rice,Daman and Diu,40889.5,26
-Rapeseed &Mustard,Dadara and Nagar Haveli,33.0,27
-Other  Rabi pulses,Dadara and Nagar Haveli,310.0,27
-Rice,Dadara and Nagar Haveli,87992.0,27
-Sesamum,Dadara and Nagar Haveli,12.0,27
-Small millets,Dadara and Nagar Haveli,760.0,27
-Sugarcane,Dadara and Nagar Haveli,1438.0,27
-Urad,Dadara and Nagar Haveli,4082.0,27
-Wheat,Dadara and Nagar Haveli,590.0,27
-Niger seed,Dadara and Nagar Haveli,322.0,27
-Maize,Dadara and Nagar Haveli,439.0,27
-Jowar,Dadara and Nagar Haveli,1843.0,27
-Groundnut,Dadara and Nagar Haveli,39.0,27
-Gram,Dadara and Nagar Haveli,300.0,27
-Arhar/Tur,Dadara and Nagar Haveli,5750.0,27
-Ragi,Dadara and Nagar Haveli,5935.0,27
-Other Kharif pulses,Dadara and Nagar Haveli,1457.0,27
-Cowpea(Lobia),Dadara and Nagar Haveli,12.0,27
-Gram,Telangana,675790.0,28
-Arhar/Tur,Telangana,2041359.0,28
-Bajra,Telangana,72852.0,28
-Banana,Telangana,11469.0,28
-Cashewnut,Telangana,17809.0,28
-Castor seed,Telangana,299521.0,28
+Potato,Telangana,3512.0,28
+Coriander,Telangana,2975.0,28
+Sweet potato,Telangana,109.0,28
+Banana,Telangana,1522.0,28
 Coconut ,Telangana,867.0,28
-Coriander,Telangana,8794.0,28
-Cotton(lint),Telangana,12421120.0,28
-Cowpea(Lobia),Telangana,48963.0,28
-Dry chillies,Telangana,595007.0,28
-Garlic,Telangana,774.0,28
-Linseed,Telangana,281.0,28
-Ginger,Telangana,13674.0,28
-Jowar,Telangana,563896.0,28
-Groundnut,Telangana,1064258.0,28
-Horse-gram,Telangana,12084.0,28
-Tobacco,Telangana,35642.0,28
-Safflower,Telangana,28245.0,28
-Sunflower,Telangana,66153.0,28
-Sugarcane,Telangana,243427.0,28
-Soyabean,Telangana,1477357.0,28
-Small millets,Telangana,4579.0,28
-Urad,Telangana,245931.0,28
-Wheat,Telangana,36702.0,28
-other oilseeds,Telangana,11014.0,28
-Sesamum,Telangana,137003.0,28
-Turmeric,Telangana,344920.0,28
-Rice,Telangana,13394980.0,28
-Rapeseed &Mustard,Telangana,4462.0,28
-Ragi,Telangana,9711.0,28
-Potato,Telangana,17130.0,28
-Other Kharif pulses,Telangana,592.0,28
-Other  Rabi pulses,Telangana,628.0,28
-Onion,Telangana,93344.0,28
-Moong(Green Gram),Telangana,1157044.0,28
-Mesta,Telangana,287.0,28
-Masoor,Telangana,482.0,28
-Maize,Telangana,4633082.0,28
-Sweet potato,Telangana,909.0,28
-Soyabean,Andhra Pradesh,955124.0,29
-Small millets,Andhra Pradesh,740510.0,29
-Sannhamp,Andhra Pradesh,9232.0,29
-Sugarcane,Andhra Pradesh,4234898.0,29
-Sesamum,Andhra Pradesh,2436520.0,29
-Sunflower,Andhra Pradesh,5787735.0,29
-Arhar/Tur,Andhra Pradesh,8618923.0,29
-Tapioca,Andhra Pradesh,251361.0,29
-Tobacco,Andhra Pradesh,3855896.0,29
-Urad,Andhra Pradesh,10332156.0,29
-Wheat,Andhra Pradesh,176292.0,29
-Safflower,Andhra Pradesh,193448.0,29
-Sweet potato,Andhra Pradesh,18519.0,29
-Rice,Andhra Pradesh,77053859.0,29
-other oilseeds,Andhra Pradesh,531394.0,29
-Ragi,Andhra Pradesh,1336124.0,29
-Arecanut,Andhra Pradesh,8819.0,29
-Bajra,Andhra Pradesh,1636806.0,29
-Banana,Andhra Pradesh,997095.0,29
-Black pepper,Andhra Pradesh,17649.0,29
-Cashewnut,Andhra Pradesh,2523771.0,29
-Castor seed,Andhra Pradesh,4101494.0,29
+Sannhamp,Andhra Pradesh,4734.0,29
+Tobacco,Andhra Pradesh,2772415.0,29
+Tapioca,Andhra Pradesh,180595.0,29
+Sweet potato,Andhra Pradesh,13326.0,29
+Sunflower,Andhra Pradesh,2041915.0,29
+Sugarcane,Andhra Pradesh,3854962.0,29
+Potato,Andhra Pradesh,43391.0,29
+Onion,Andhra Pradesh,34925.0,29
+Ginger,Andhra Pradesh,24600.0,29
+Dry chillies,Andhra Pradesh,267789.0,29
+Coriander,Andhra Pradesh,391582.0,29
 Coconut ,Andhra Pradesh,1965574.0,29
-Coriander,Andhra Pradesh,483761.0,29
-Cotton(lint),Andhra Pradesh,24993683.0,29
-Cowpea(Lobia),Andhra Pradesh,150694.0,29
-Dry chillies,Andhra Pradesh,4564510.0,29
+Cashewnut,Andhra Pradesh,1602633.0,29
+Black pepper,Andhra Pradesh,17645.0,29
+Banana,Andhra Pradesh,997095.0,29
+Arecanut,Andhra Pradesh,3430.0,29
 Garlic,Andhra Pradesh,2775.0,29
-Gram,Andhra Pradesh,9943133.0,29
-Groundnut,Andhra Pradesh,32318018.0,29
-Ginger,Andhra Pradesh,27711.0,29
-Horse-gram,Andhra Pradesh,1483553.0,29
-Potato,Andhra Pradesh,55582.0,29
-Other Kharif pulses,Andhra Pradesh,148006.0,29
-Other  Rabi pulses,Andhra Pradesh,164959.0,29
-Rapeseed &Mustard,Andhra Pradesh,81740.0,29
-Guar seed,Andhra Pradesh,49.0,29
-Oilseeds total,Andhra Pradesh,5006406.0,29
-Niger seed,Andhra Pradesh,223933.0,29
-Onion,Andhra Pradesh,735301.0,29
-Mesta,Andhra Pradesh,838496.0,29
-Masoor,Andhra Pradesh,432159.0,29
-Maize,Andhra Pradesh,12630979.0,29
-Linseed,Andhra Pradesh,42405.0,29
-Jowar,Andhra Pradesh,9026742.0,29
-Moong(Green Gram),Andhra Pradesh,7787541.0,29
-Other Kharif pulses,Goa,7475.0,30
-other oilseeds,Goa,2366.0,30
-Sweet potato,Goa,228.0,30
-Rice,Goa,1066761.0,30
-Ragi,Goa,9877.5,30
-Other  Rabi pulses,Goa,152991.0,30
-Sugarcane,Goa,22911.0,30
-Coconut ,Goa,433905.0,30
-Cashewnut,Goa,938328.0,30
-Black pepper,Goa,10826.0,30
-Groundnut,Goa,52659.0,30
 Banana,Goa,29097.0,30
+Coconut ,Goa,433905.0,30
+Sugarcane,Goa,22911.0,30
+Ragi,Goa,2800.0,30
+other oilseeds,Goa,2366.0,30
 Arecanut,Goa,22176.0,30
-Banana,Karnataka,577792.0,31
-Bajra,Karnataka,7259548.0,31
-Arhar/Tur,Karnataka,16969582.0,31
+Cashewnut,Goa,938328.0,30
+Sweet potato,Goa,228.0,30
+Black pepper,Goa,10826.0,30
+Tobacco,Karnataka,1855921.0,31
 Arecanut,Karnataka,4493753.0,31
-Peas & beans (Pulses),Karnataka,30050.0,31
-Potato,Karnataka,943496.0,31
-Ragi,Karnataka,18319596.0,31
-Rapeseed &Mustard,Karnataka,94933.0,31
-Safflower,Karnataka,1432335.0,31
-Black pepper,Karnataka,700736.0,31
-Sannhamp,Karnataka,10770.0,31
-Sesamum,Karnataka,1489048.0,31
-Small millets,Karnataka,813991.0,31
-Soyabean,Karnataka,3701556.0,31
-Sugarcane,Karnataka,7910943.0,31
-Sunflower,Karnataka,14228291.0,31
-Sweet potato,Karnataka,64178.0,31
-Rice,Karnataka,30451579.0,31
-Cardamom,Karnataka,390934.0,31
-Castor seed,Karnataka,369117.0,31
-Cashewnut,Karnataka,730536.0,31
 Tapioca,Karnataka,17686.0,31
-Niger seed,Karnataka,497012.0,31
-Moong(Green Gram),Karnataka,8134712.0,31
-Mesta,Karnataka,34597.0,31
-Maize,Karnataka,23843953.0,31
-Linseed,Karnataka,237394.0,31
-Jowar,Karnataka,32438605.0,31
-Horse-gram,Karnataka,5574504.0,31
-Groundnut,Karnataka,18608335.0,31
-Gram,Karnataka,16084533.0,31
-Ginger,Karnataka,444426.0,31
+Sweet potato,Karnataka,64178.0,31
+Sugarcane,Karnataka,7910943.0,31
+Sannhamp,Karnataka,10770.0,31
+Potato,Karnataka,324744.0,31
+Peas & beans (Pulses),Karnataka,6974.0,31
+Onion,Karnataka,874174.0,31
+Mesta,Karnataka,13473.0,31
 Garlic,Karnataka,108074.0,31
-Dry chillies,Karnataka,2833761.0,31
-Cowpea(Lobia),Karnataka,777583.0,31
-Cotton(lint),Karnataka,12018166.0,31
+Dry chillies,Karnataka,1222615.0,31
+Cotton(lint),Karnataka,2058147.0,31
 Coriander,Karnataka,158586.0,31
 Coconut ,Karnataka,9267488.0,31
-Onion,Karnataka,3309405.0,31
-Tobacco,Karnataka,1855921.0,31
-Other  Rabi pulses,Karnataka,476698.0,31
-Urad,Karnataka,2495997.0,31
-Other Kharif pulses,Karnataka,2071105.0,31
+Cashewnut,Karnataka,730536.0,31
+Cardamom,Karnataka,390934.0,31
+Black pepper,Karnataka,696911.0,31
+Banana,Karnataka,577792.0,31
 Turmeric,Karnataka,294337.0,31
-Wheat,Karnataka,5341757.0,31
-other oilseeds,Kerala,2253.0,32
-Other Kharif pulses,Kerala,7303.826,32
-Potato,Kerala,5561.9,32
-Ragi,Kerala,13128.2,32
-Rice,Kerala,5466503.45,32
-Sesamum,Kerala,17694.767,32
-Small millets,Kerala,1513.01,32
-Soyabean,Kerala,15.0,32
-Sugarcane,Kerala,55878.354,32
-Sweet potato,Kerala,11010.41,32
-Tapioca,Kerala,1985809.81,32
-Tobacco,Kerala,884.28,32
-Turmeric,Kerala,65495.83,32
+Ginger,Karnataka,377775.0,31
 Urad,Kerala,1042.0,32
-Wheat,Kerala,8.4,32
-Other Cereals,Kerala,2529.0,32
+Sweet potato,Kerala,11010.41,32
+Turmeric,Kerala,65495.83,32
+Tobacco,Kerala,884.28,32
+Tapioca,Kerala,1985809.81,32
 Sunflower,Kerala,1.0,32
-Other  Rabi pulses,Kerala,1256.0,32
+Sugarcane,Kerala,55878.354,32
+Soyabean,Kerala,15.0,32
+Small millets,Kerala,223.01,32
+Sesamum,Kerala,1977.397,32
+Ragi,Kerala,895.2,32
+Potato,Kerala,5561.9,32
+Onion,Kerala,276.21,32
+Moong(Green Gram),Kerala,385.0,32
 Maize,Kerala,709.986,32
+Wheat,Kerala,8.4,32
+Jowar,Kerala,1453.0,32
+Groundnut,Kerala,3359.3,32
 Arecanut,Kerala,2213888.86,32
 Arhar/Tur,Kerala,5943.0,32
 Banana,Kerala,1217460.76,32
 Black pepper,Kerala,3513578.11,32
 Cardamom,Kerala,821398.0,32
+Horse-gram,Kerala,285.0,32
 Cashewnut,Kerala,1471839.46,32
-Coconut ,Kerala,19221995.88,32
-Moong(Green Gram),Kerala,385.0,32
-Cotton(lint),Kerala,39005.4,32
+Cotton(lint),Kerala,277.4,32
+Cowpea(Lobia),Kerala,2864.0,32
 Dry chillies,Kerala,609.0,32
 Garlic,Kerala,6037.61,32
 Ginger,Kerala,164635.62,32
 Gram,Kerala,1290.86,32
-Groundnut,Kerala,41966.3,32
-Horse-gram,Kerala,285.0,32
-Jowar,Kerala,29003.0,32
-Cowpea(Lobia),Kerala,2864.0,32
-Onion,Kerala,276.21,32
-Sesamum,Tamil Nadu,1597997.0,33
-Turmeric,Tamil Nadu,531679.0,33
-Horse-gram,Tamil Nadu,1571400.0,33
-Guar seed,Tamil Nadu,332323.0,33
-Groundnut,Tamil Nadu,11149552.0,33
-Gram,Tamil Nadu,139122.0,33
-Ginger,Tamil Nadu,9862.0,33
-Garlic,Tamil Nadu,13305.0,33
-Dry chillies,Tamil Nadu,1075429.0,33
-Cowpea(Lobia),Tamil Nadu,192329.0,33
-Cotton(lint),Tamil Nadu,3115524.0,33
-Urad,Tamil Nadu,7248055.0,33
+Coconut ,Kerala,19221995.88,32
+other oilseeds,Kerala,2253.0,32
+Castor seed,Tamil Nadu,69728.0,33
 Coconut ,Tamil Nadu,6475294.0,33
-Castor seed,Tamil Nadu,242065.0,33
-Cashewnut,Tamil Nadu,1765697.0,33
+Arhar/Tur,Tamil Nadu,208836.0,33
+Coriander,Tamil Nadu,330189.0,33
+Cotton(lint),Tamil Nadu,418285.0,33
+Dry chillies,Tamil Nadu,1075330.0,33
+Garlic,Tamil Nadu,13305.0,33
+Ginger,Tamil Nadu,6352.0,33
+Gram,Tamil Nadu,44517.0,33
+Groundnut,Tamil Nadu,1946098.0,33
+Guar seed,Tamil Nadu,332323.0,33
+Horse-gram,Tamil Nadu,265031.0,33
+Arecanut,Tamil Nadu,96927.0,33
+Maize,Tamil Nadu,952008.0,33
+Moong(Green Gram),Tamil Nadu,733567.0,33
+Onion,Tamil Nadu,363652.0,33
+Potato,Tamil Nadu,51214.0,33
+Ragi,Tamil Nadu,361593.0,33
+Jowar,Tamil Nadu,1075254.0,33
+Sannhamp,Tamil Nadu,20359.0,33
+Rapeseed &Mustard,Tamil Nadu,1693.0,33
+Banana,Tamil Nadu,1742645.0,33
+Black pepper,Tamil Nadu,63444.0,33
 Cardamom,Tamil Nadu,70931.0,33
-Black pepper,Tamil Nadu,63568.0,33
-Banana,Tamil Nadu,1746391.0,33
-Bajra,Tamil Nadu,1813859.0,33
-Arhar/Tur,Tamil Nadu,995965.0,33
-Arecanut,Tamil Nadu,97623.0,33
-Jowar,Tamil Nadu,7077706.0,33
-Jute,Tamil Nadu,3.0,33
-Coriander,Tamil Nadu,330205.0,33
-Masoor,Tamil Nadu,131396.0,33
-Maize,Tamil Nadu,5155061.0,33
-Tobacco,Tamil Nadu,79366.0,33
-Tapioca,Tamil Nadu,1890208.0,33
-Sweet potato,Tamil Nadu,15556.0,33
-Sunflower,Tamil Nadu,313510.0,33
-Soyabean,Tamil Nadu,630.0,33
-Small millets,Tamil Nadu,750316.0,33
-Sannhamp,Tamil Nadu,20369.0,33
-Rice,Tamil Nadu,41293075.0,33
-Rapeseed &Mustard,Tamil Nadu,7722.0,33
-Sugarcane,Tamil Nadu,6248123.0,33
-Potato,Tamil Nadu,82150.0,33
-Ragi,Tamil Nadu,2261138.0,33
-Moong(Green Gram),Tamil Nadu,3620441.0,33
-Niger seed,Tamil Nadu,1877.0,33
-Onion,Tamil Nadu,572104.0,33
-Mesta,Tamil Nadu,577.0,33
-Other Cereals,Tamil Nadu,113338.0,33
-Other Kharif pulses,Tamil Nadu,759917.0,33
-Other Summer Pulses,Tamil Nadu,56.0,33
-Other  Rabi pulses,Tamil Nadu,53524.0,33
-Maize,Andaman and Nicobar Islands,1692.19,34
-Arhar/Tur,Andaman and Nicobar Islands,1088.6,34
-Banana,Andaman and Nicobar Islands,33773.188,34
-Black pepper,Andaman and Nicobar Islands,9968.85,34
-Cashewnut,Andaman and Nicobar Islands,12635.42,34
+Cashewnut,Tamil Nadu,1763857.0,33
+Urad,Tamil Nadu,1390185.0,33
+Turmeric,Tamil Nadu,531615.0,33
+Bajra,Tamil Nadu,236409.0,33
+Tapioca,Tamil Nadu,1886306.0,33
+Sweet potato,Tamil Nadu,15509.0,33
+Sunflower,Tamil Nadu,124004.0,33
+Sugarcane,Tamil Nadu,6219479.0,33
+Small millets,Tamil Nadu,62554.0,33
+Sesamum,Tamil Nadu,377915.0,33
+Tobacco,Tamil Nadu,79157.0,33
+Banana,Andaman and Nicobar Islands,29064.648,34
+Black pepper,Andaman and Nicobar Islands,3085.21,34
+Cashewnut,Andaman and Nicobar Islands,5172.0,34
 Coconut ,Andaman and Nicobar Islands,485231.16,34
-Cowpea(Lobia),Andaman and Nicobar Islands,2513.9,34
-Dry chillies,Andaman and Nicobar Islands,5873.38,34
-Ginger,Andaman and Nicobar Islands,4321.89,34
-Groundnut,Andaman and Nicobar Islands,158.95,34
-Moong(Green Gram),Andaman and Nicobar Islands,9112.75,34
-Urad,Andaman and Nicobar Islands,9068.56,34
-Other Kharif pulses,Andaman and Nicobar Islands,1090.0,34
-Rapeseed &Mustard,Andaman and Nicobar Islands,128.51,34
-Rice,Andaman and Nicobar Islands,158887.73,34
-Sesamum,Andaman and Nicobar Islands,349.53,34
-Sugarcane,Andaman and Nicobar Islands,3430.23,34
-Sunflower,Andaman and Nicobar Islands,20.93,34
-Sweet potato,Andaman and Nicobar Islands,1851.3,34
-Tapioca,Andaman and Nicobar Islands,3329.34,34
-Turmeric,Andaman and Nicobar Islands,1316.96,34
-other oilseeds,Andaman and Nicobar Islands,508.02,34
+Dry chillies,Andaman and Nicobar Islands,2203.02,34
+Sweet potato,Andaman and Nicobar Islands,404.3,34
 Oilseeds total,Andaman and Nicobar Islands,276.7,34
-Arecanut,Andaman and Nicobar Islands,93354.01,34
-Arhar/Tur,,23412.0,
-Bajra,,496.0,
-Banana,,691.0,
-Coconut ,,1640.0,
-Coriander,,5.0,
-Cowpea(Lobia),,6.0,
-Gram,,2774.0,
-Groundnut,,209.0,
-Jowar,,7474.0,
-Maize,,886.0,
-Niger seed,,2268.0,
-Other  Rabi pulses,,52840.0,
-Other Kharif pulses,,12403.0,
-Ragi,,22498.0,
-Rapeseed &Mustard,,61.0,
-Rice,,221768.0,
-Sannhamp,,801.0,
-Sesamum,,210.0,
-Small millets,,3058.0,
-Sugarcane,,14606.0,
-Sunflower,,10.0,
-Urad,,10614.0,
-Wheat,,8795.0,
+Sugarcane,Andaman and Nicobar Islands,1350.28,34
+Tapioca,Andaman and Nicobar Islands,2612.39,34
+Turmeric,Andaman and Nicobar Islands,172.2,34
+other oilseeds,Andaman and Nicobar Islands,507.86,34
+Ginger,Andaman and Nicobar Islands,2618.86,34
+Arecanut,Andaman and Nicobar Islands,21269.82,34
